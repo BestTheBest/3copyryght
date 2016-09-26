@@ -1,0 +1,9 @@
+D:\labu\kpz\3copyraite\1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\labu\kpz\3copyraite\1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\labu\kpz\3copyraite\1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\labu\kpz\3copyraite\1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+D:\labu\kpz\3copyraite\1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+D:\labu\kpz\3copyraite\1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\labu\kpz\3copyraite\1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+D:\labu\kpz\3copyraite\1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\labu\kpz\3copyraite\1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
