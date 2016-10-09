@@ -30,6 +30,8 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.Персонал = new System.Windows.Forms.TabPage();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.button4 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -40,7 +42,6 @@
             this.label7 = new System.Windows.Forms.Label();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -98,7 +99,6 @@
             this.проПрограмуToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.авториToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ліцензіяToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.button4 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.Персонал.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -122,6 +122,7 @@
             // 
             // Персонал
             // 
+            this.Персонал.Controls.Add(this.comboBox4);
             this.Персонал.Controls.Add(this.button4);
             this.Персонал.Controls.Add(this.dataGridView1);
             this.Персонал.Controls.Add(this.label8);
@@ -129,7 +130,6 @@
             this.Персонал.Controls.Add(this.label7);
             this.Персонал.Controls.Add(this.textBox7);
             this.Персонал.Controls.Add(this.textBox6);
-            this.Персонал.Controls.Add(this.textBox5);
             this.Персонал.Controls.Add(this.textBox4);
             this.Персонал.Controls.Add(this.textBox3);
             this.Персонал.Controls.Add(this.textBox2);
@@ -148,6 +148,33 @@
             this.Персонал.Text = "Персонал";
             this.Персонал.UseVisualStyleBackColor = true;
             this.Персонал.Click += new System.EventHandler(this.tabPage1_Click);
+            // 
+            // comboBox4
+            // 
+            this.comboBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Items.AddRange(new object[] {
+            "Адміністратор",
+            "Директор",
+            "Бухгалтер",
+            "Зварювальник",
+            "Грущик",
+            "Водій"});
+            this.comboBox4.Location = new System.Drawing.Point(133, 209);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(145, 28);
+            this.comboBox4.TabIndex = 18;
+            // 
+            // button4
+            // 
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button4.Location = new System.Drawing.Point(19, 295);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(259, 37);
+            this.button4.TabIndex = 17;
+            this.button4.Text = "Добавити";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // dataGridView1
             // 
@@ -227,32 +254,23 @@
             // textBox6
             // 
             this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox6.Location = new System.Drawing.Point(133, 110);
+            this.textBox6.Location = new System.Drawing.Point(133, 255);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(145, 26);
             this.textBox6.TabIndex = 11;
             // 
-            // textBox5
-            // 
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox5.Location = new System.Drawing.Point(133, 159);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(145, 26);
-            this.textBox5.TabIndex = 10;
-            // 
             // textBox4
             // 
             this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox4.Location = new System.Drawing.Point(133, 208);
+            this.textBox4.Location = new System.Drawing.Point(133, 163);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(145, 26);
             this.textBox4.TabIndex = 9;
             // 
             // textBox3
             // 
-            this.textBox3.Enabled = false;
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox3.Location = new System.Drawing.Point(133, 258);
+            this.textBox3.Location = new System.Drawing.Point(133, 111);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(145, 26);
             this.textBox3.TabIndex = 8;
@@ -418,6 +436,7 @@
             // 
             // button2
             // 
+            this.button2.Enabled = false;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button2.Location = new System.Drawing.Point(237, 219);
             this.button2.Margin = new System.Windows.Forms.Padding(1);
@@ -426,22 +445,28 @@
             this.button2.TabIndex = 26;
             this.button2.Text = "+";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Visible = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // textBox11
             // 
+            this.textBox11.Enabled = false;
             this.textBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox11.Location = new System.Drawing.Point(133, 219);
+            this.textBox11.Location = new System.Drawing.Point(133, 253);
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(100, 26);
             this.textBox11.TabIndex = 25;
+            this.textBox11.Visible = false;
             // 
             // textBox10
             // 
+            this.textBox10.Enabled = false;
             this.textBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox10.Location = new System.Drawing.Point(133, 253);
+            this.textBox10.Location = new System.Drawing.Point(133, 219);
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(100, 26);
             this.textBox10.TabIndex = 24;
+            this.textBox10.Visible = false;
             // 
             // textBox9
             // 
@@ -453,21 +478,25 @@
             // 
             // comboBox3
             // 
+            this.comboBox3.Enabled = false;
             this.comboBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.comboBox3.FormattingEnabled = true;
             this.comboBox3.Location = new System.Drawing.Point(8, 251);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(119, 28);
             this.comboBox3.TabIndex = 22;
+            this.comboBox3.Visible = false;
             // 
             // comboBox2
             // 
+            this.comboBox2.Enabled = false;
             this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Location = new System.Drawing.Point(8, 217);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(119, 28);
             this.comboBox2.TabIndex = 21;
+            this.comboBox2.Visible = false;
             // 
             // button1
             // 
@@ -479,6 +508,7 @@
             this.button1.TabIndex = 20;
             this.button1.Text = "+";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // comboBox1
             // 
@@ -688,6 +718,7 @@
             this.зберегтиToolStripMenuItem.Name = "зберегтиToolStripMenuItem";
             this.зберегтиToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
             this.зберегтиToolStripMenuItem.Text = "Зберегти";
+            this.зберегтиToolStripMenuItem.Click += new System.EventHandler(this.зберегтиToolStripMenuItem_Click);
             // 
             // вихідToolStripMenuItem
             // 
@@ -707,13 +738,13 @@
             // колірToolStripMenuItem
             // 
             this.колірToolStripMenuItem.Name = "колірToolStripMenuItem";
-            this.колірToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.колірToolStripMenuItem.Size = new System.Drawing.Size(113, 22);
             this.колірToolStripMenuItem.Text = "Колір";
             // 
             // шрифтToolStripMenuItem
             // 
             this.шрифтToolStripMenuItem.Name = "шрифтToolStripMenuItem";
-            this.шрифтToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.шрифтToolStripMenuItem.Size = new System.Drawing.Size(113, 22);
             this.шрифтToolStripMenuItem.Text = "Шрифт";
             // 
             // інформаціяToolStripMenuItem
@@ -743,17 +774,6 @@
             this.ліцензіяToolStripMenuItem.Name = "ліцензіяToolStripMenuItem";
             this.ліцензіяToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
             this.ліцензіяToolStripMenuItem.Text = "Ліцензія";
-            // 
-            // button4
-            // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button4.Location = new System.Drawing.Point(19, 295);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(259, 37);
-            this.button4.TabIndex = 17;
-            this.button4.Text = "Добавити";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // Form1
             // 
@@ -803,23 +823,22 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        public System.Windows.Forms.TextBox textBox2;
+        public System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        public System.Windows.Forms.TextBox textBox6;
+        public System.Windows.Forms.TextBox textBox4;
+        public System.Windows.Forms.TextBox textBox3;
+        public System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox8;
+        public System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox7;
+        public System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox textBox11;
@@ -854,6 +873,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column13;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column16;
         private System.Windows.Forms.Button button4;
+        public System.Windows.Forms.ComboBox comboBox4;
     }
 }
 
