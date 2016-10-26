@@ -16,3 +16,12 @@ D:\labu\kpz\3copyryght\WindowsFormsApplication1\obj\Debug\WindowsFormsApplicatio
 D:\labu\kpz\3copyryght\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
 D:\labu\kpz\3copyryght\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
 D:\labu\kpz\3copyryght\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\Віктор\Desktop\3copyryght\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Віктор\Desktop\3copyryght\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Віктор\Desktop\3copyryght\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Віктор\Desktop\3copyryght\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Віктор\Desktop\3copyryght\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Віктор\Desktop\3copyryght\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Віктор\Desktop\3copyryght\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Віктор\Desktop\3copyryght\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Віктор\Desktop\3copyryght\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
